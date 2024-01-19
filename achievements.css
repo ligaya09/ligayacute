@@ -16,8 +16,8 @@ body {
 }
 
 .footer {
-	font-size: 90px;
-  	font-family:'perpetua', serif;
+    font-size: 90px;
+    font-family:'perpetua', serif;
         color: #D898A4;
 
 }
@@ -49,17 +49,16 @@ body {
 
 h1 {
    text-align: center;
+   margin-left: 150px;
+   margin-right: 150px;
 }
 
 
 h4 {
-  position: absolute;
-  top: 55%;
-  left: 20%;
   font-size: 45px;
   color: black;
   font-family:'perpetua', serif;
-  text-align: center;
+  margin: 0;
 }
 
 .p {
@@ -74,75 +73,61 @@ h4 {
 }
 
 .CATAWARDS {
-  position: absolute;
   top: 76%;
   left: 32%;
-  transform: translate(-50%, -50%);
   font-size: 20px;
   color: black;
   font-family:'perpetua', serif;
-
 }
 .Linkedin {
-  position: absolute;
   top: 118%;
   left: 38%;
-  transform: translate(-50%, -50%);
   font-size: 20px;
   color: black;
   font-family:'perpetua', serif;
-
 }
 
 h2 {
-  position: absolute;
   top: 88%;
   left: 27.5%;
-  transform: translate(-50%, -50%);
   font-size: 46px;
   color: black;
   font-family:'perpetua', serif;
-
 }
 
 .bottomleft {
     position: absolute;
-    top: -80px;
-    left: -380px;
-   
-
+    margin-left: -200px;
+    margin-top: 92px;
 }
 
 .bottomright {
     position: absolute;
-    top: -350px;
-    left: -380px;
-   
-
+    margin-top: -100px;
+    margin-left: -350px;
 }
 
 .planecolumn {
-  position: absolute;
-  left: -500px;
-  top: -700px;
+  width: 200px;
+  height: 200px;
+  left: 200px;
+  top: 100px;
   font-weight: bold;
   position: relative;
-  animation: myfirst 10s 5;
+  animation: myfirst 10s infinite;
   animation-direction: alternate;
 }
 
 @keyframes myfirst {
-  0%   {left: -25px; top: -700px;}
-  25%  {left: 1000px; top: -900px;}
-  50%  {left: -400px; top: -1000px;}
+  0%   {left: -25px;top: 50px;}
+  25%  {left: 1000px;top: -200px;}
+  50%  {left: -50px;top: -350px;}
  
 }
 .trophy {
    position: absolute;
-    top: -330px;
-    left: 620px;
-   
-
+   margin-top: -120px;
+   margin-left: 40%;
 }
 .circle {
   height: 24px;
@@ -155,10 +140,3 @@ h2 {
   pointer-events: none;
   z-index: 99999999; /* so that it stays on top of all other elements */
 }
-
-
-
-
-
-
-
