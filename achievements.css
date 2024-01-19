@@ -108,14 +108,10 @@ h2 {
 }
 
 .planecolumn {
-  width: 700px;
-  height: 200px;
-  left: 200px;
-  top: 100px;
-  font-weight: bold;
-  position: relative;
-  animation: myfirst 10s infinite;
-  animation-direction: alternate;
+    font-weight: bold;
+    position: relative;
+    animation: myfirst 10s 5;
+    animation-direction: alternate;
 }
 
 @keyframes myfirst {
